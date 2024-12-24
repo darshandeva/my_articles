@@ -1,25 +1,105 @@
-4180
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Articles</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Blog</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #e0e0e0;
+            background-color: #121212; /* Deep Black Background */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1f1f1f; /* Matte Dark Gray */
+            color: #e0e0e0; /* Light Gray */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            color: #a0a0a0; /* Muted Gray */
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #1a1a1a; /* Slightly Lighter Black */
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        article h2 {
+            font-size: 1.5rem;
+            color: #ffffff; /* Pure White */
+        }
+
+        article p {
+            font-size: 1rem;
+            color: #c0c0c0; /* Soft Gray */
+            margin-bottom: 10px;
+        }
+
+        article a {
+            color: #007bff; /* Soft Blue */
+            text-decoration: none;
+        }
+
+        article a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1f1f1f;
+            color: #a0a0a0;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Articles</h1>
-  </header>
-  <main>
-    <article>
-      <h2>Article Title</h2>
-      <p>Published on: <time>2024-12-21</time></p>
-      <p>This is a short summary of my article. <a href="article1.html">Read more</a></p>
-    </article>
-  </main>
-  <footer>
-    <p>&copy; 2024 My Articles</p>
-  </footer>
+    <header>
+        <h1>Minimalist Blog</h1>
+        <p>Your space for thoughts and ideas</p>
+    </header>
+    <main>
+        <article>
+            <h2>Article 1 Title</h2>
+            <p>Published on: <time>2024-12-24</time></p>
+            <p>A brief summary of the article. <a href="article1.html">Read more</a></p>
+        </article>
+        <article>
+            <h2>Article 2 Title</h2>
+            <p>Published on: <time>2024-12-23</time></p>
+            <p>A brief summary of the article. <a href="article2.html">Read more</a></p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2024 Minimalist Blog. All rights reserved.</p>
+    </footer>
 </body>
 </html>
